@@ -32,12 +32,3 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
-android {
-    
-    defaultConfig {
-        
-        vectorDrawables.useSupportLibrary = true
-        
-    }
-    
-}
