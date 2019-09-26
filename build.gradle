@@ -23,8 +23,10 @@ allprojects {
         maven {
             url 'https://maven.google.com/'
             name 'Google'
+             buildDir = "C:/tmp/${rootProject.name}/${project.name}"
         }
         jcenter()
+      
         
     }
 }
