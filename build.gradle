@@ -19,11 +19,12 @@ ext.kotlin_version = '1.3.41'
 }
 
 allprojects {
+            buildDir = "C:/tmp/${rootProject.name}/${project.name}"
     repositories {
         maven {
             url 'https://maven.google.com/'
             name 'Google'
-             buildDir = "C:/tmp/${rootProject.name}/${project.name}"
+            
         }
         jcenter()  
     }
