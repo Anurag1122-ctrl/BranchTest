@@ -25,9 +25,7 @@ allprojects {
             name 'Google'
              buildDir = "C:/tmp/${rootProject.name}/${project.name}"
         }
-        jcenter()
-      
-        
+        jcenter()  
     }
 }
 
